@@ -22,10 +22,17 @@
             <h2 class="sitebar__title">Contacts</h2>
             <ul class="sitebar__contacts-list">
               <li class="sitebar__contacts-item">
-                <a class="sitebar__link" href="tel:+380673008282">+38 067 300 82 82</a>
+                <a class="sitebar__link" href="tel:+380673008282">
+                  <svg class="sitebar__icon" width="16" height="16">
+                    <use href="./img/symbol-defs.svg#icon-phone"></use></svg
+                  >+38 067 300 82 82</a
+                >
               </li>
               <li class="sitebar__contacts-item">
                 <a class="sitebar__link" href="mailto:fedorovanatalia1287@gmail.com">
+                  <svg class="sitebar__icon" width="16" height="16">
+                    <use href="./img/symbol-defs.svg#icon-email"></use>
+                  </svg>
                   fedorovanatalia1287@gmail.com</a
                 >
               </li>
@@ -34,16 +41,23 @@
                   class="sitebar__link"
                   target="_blank"
                   href="https://www.linkedin.com/in/natafedorova/"
+                >
+                  <svg class="sitebar__icon" width="16" height="16">
+                    <use href="./img/symbol-defs.svg#icon-linkedin"></use></svg
                   >LinkedIn</a
                 >
               </li>
               <li class="sitebar__contacts-item">
                 <a class="sitebar__link" target="_blank" href="https://github.com/NatashaFedorova"
+                  ><svg class="sitebar__icon" width="16" height="16">
+                    <use href="./img/symbol-defs.svg#icon-github"></use></svg
                   >GitHub</a
                 >
               </li>
               <li class="sitebar__contacts-item">
                 <a class="sitebar__link" target="_blank" href="https://t.me/NataliaFedorova1287"
+                  ><svg class="sitebar__icon" width="16" height="16">
+                    <use href="./img/symbol-defs.svg#icon-telegram"></use></svg
                   >Telegram</a
                 >
               </li>
@@ -56,19 +70,31 @@
               <h2 class="sitebar__title">Tech skills</h2>
               <ul class="sitebar__skills-list">
                 <li class="sitebar__skills-item">
-                  <span class="sitebar__skills-text">HTML</span>
+                  <span class="sitebar__skills-text">HTML5/CSS3/SASS</span>
                 </li>
                 <li class="sitebar__skills-item">
-                  <span class="sitebar__skills-text">CSS</span>
+                  <span class="sitebar__skills-text">Responsive/Adaptive design</span>
                 </li>
                 <li class="sitebar__skills-item">
                   <span class="sitebar__skills-text">JavaScript</span>
+                </li>
+                <li class="sitebar__skills-item">
+                  <span class="sitebar__skills-text">REST API</span>
+                </li>
+                <li class="sitebar__skills-item">
+                  <span class="sitebar__skills-text">Parcel</span>
+                </li>
+                <li class="sitebar__skills-item">
+                  <span class="sitebar__skills-text">Webpack</span>
                 </li>
                 <li class="sitebar__skills-item">
                   <span class="sitebar__skills-text">React.js</span>
                 </li>
                 <li class="sitebar__skills-item">
                   <span class="sitebar__skills-text">Node.js</span>
+                </li>
+                <li class="sitebar__skills-item">
+                  <span class="sitebar__skills-text">Git</span>
                 </li>
               </ul>
             </div>
@@ -106,16 +132,16 @@
         <section class="language">
           <div class="sitebar-container">
             <div class="sitebar__section-container">
-              <h2 class="sitebar__title">Language</h2>
+              <h2 class="sitebar__title">Languages</h2>
               <ul class="sitebar__language-list">
                 <li class="sitebar__language-item">
-                  <span class="sitebar__language-text">English - Elementary A1</span>
+                  <span class="sitebar__language-text">English - Elementary</span>
                 </li>
                 <li class="sitebar__language-item">
-                  <span class="sitebar__language-text">Ukrainian – native</span>
+                  <span class="sitebar__language-text">Ukrainian – Native</span>
                 </li>
                 <li class="sitebar__language-item">
-                  <span class="sitebar__language-text">Russian – native</span>
+                  <span class="sitebar__language-text">Russian – Native</span>
                 </li>
               </ul>
             </div>
@@ -125,15 +151,15 @@
       <main class="main">
         <section class="about">
           <div class="main__section-container">
-            <h2 class="about__profession title">Front End Developer</h2>
             <h1 class="about__name">Natalia Fedorova</h1>
+            <h2 class="about__profession title">Front End Developer</h2>
             <p class="about__text text">
               I&#039;m a frontend developer. I devoted this year to study, during which I
               participated in 2 team projects and completed 1 individual project, which helped to
-              gain experience working in a team and self-organization. My goal is to get a job in a
-              company like yours, where I can use my acquired knowledge to accelerate the
-              development of the organization by increasing the level of efficiency and quality of
-              services provided, as well as for my personal career growth.
+              gain experience in team work and self-organization. My goal is to get a job in a
+              company, where I can use the acquired knowledge to accelerate the development of the
+              organization by increasing the level of efficiency and quality of services provided,
+              as well as for personal career growth.
             </p>
           </div>
         </section>
@@ -142,93 +168,84 @@
             <h3 class="title">Projects</h3>
             <ul class="projects__list">
               <li class="projects__item">
-                <h4 class="projects__title">
+                <div class="projects__link-thumb">
+                  <h4 class="projects__title">
+                    <a
+                      class="projects__link--title"
+                      href="https://natashafedorova.github.io/IceCream/"
+                      target="_blank"
+                      >Ice cream shop</a
+                    >
+                  </h4>
                   <a
-                    class="projects__link--title"
-                    href="https://natashafedorova.github.io/IceCream/"
+                    class="projects__link--text"
+                    href="https://github.com/NatashaFedorova/IceCream"
                     target="_blank"
-                    >Ice cream shop</a
+                    ><span class="project__brackets">[</span> Project link
+                    <span class="project__brackets">]</span></a
                   >
-                </h4>
+                </div>
                 <p class="projects__text text">
                   The site of an online store selling organic ice cream wholesale and retail. Helps
                   the user: get information about raw materials, assortment, prices, points of sale,
                   read reviews. Team project. My task is the section about locations, I also fixed
                   minor errors.
-                  <a
-                    class="projects__link--text"
-                    href="https://github.com/NatashaFedorova/IceCream"
-                    target="_blank"
-                    >Repository.</a
-                  >
-                  <a
-                    class="projects__link--text"
-                    href="https://natashafedorova.github.io/IceCream/"
-                    target="_blank"
-                    >Website.</a
-                  >
                 </p>
                 <p class="projects__technology">HTML/CSS/SCSS/JS/Parcel</p>
               </li>
               <li class="projects__item">
-                <h4 class="projects__title">
+                <div class="projects__link-thumb">
+                  <h4 class="projects__title">
+                    <a
+                      class="projects__link--title"
+                      href="https://natashafedorova.github.io/filmoteka-website/"
+                      target="_blank"
+                      >Filmoteka</a
+                    >
+                  </h4>
                   <a
-                    class="projects__link--title"
-                    href="https://natashafedorova.github.io/filmoteka-website/"
+                    class="projects__link--text"
+                    href="https://github.com/NatashaFedorova/filmoteka-website"
                     target="_blank"
-                    >Filmoteka</a
+                    ><span class="project__brackets">[</span> Project link
+                    <span class="project__brackets">]</span></a
                   >
-                </h4>
+                </div>
                 <p class="projects__text text">
                   A site for movie buffs. Acquaints the user with novelties in the field of cinema,
                   allows you to create your own libraries: "watched movies", "movies to watch".
                   Convenient and easy to use. Team project. Acted as a scrum master, was responsible
                   for pagination and participated in correcting inaccuracies.
-                  <a
-                    class="projects__link--text"
-                    href="https://github.com/NatashaFedorova/filmoteka-website"
-                    target="_blank"
-                    >Repository.</a
-                  >
-                  <a
-                    class="projects__link--text"
-                    href="https://natashafedorova.github.io/filmoteka-website/"
-                    target="_blank"
-                    >Website.</a
-                  >
                 </p>
                 <p class="projects__technology">
-                  HTML/CSS/SCSS/JS/Parcel/React/ Animate.css/tui-pagination/jQuery/ API/
-                  Bootstrap-icons/Lodash
+                  HTML/CSS/SCSS/JS/Parcel/React/Animate.css/tui-pagination/jQuery/API
+                  /Bootstrap-icons/Lodash
                 </p>
               </li>
 
               <li class="projects__item">
-                <h4 class="projects__title">
+                <div class="projects__link-thumb">
+                  <h4 class="projects__title">
+                    <a
+                      class="projects__link--title"
+                      href="https://natashafedorova.github.io/WebStudio/"
+                      target="_blank"
+                      >WebStudio</a
+                    >
+                  </h4>
                   <a
-                    class="projects__link--title"
-                    href="https://natashafedorova.github.io/WebStudio/"
+                    class="projects__link--text"
+                    href="https://github.com/NatashaFedorova/WebStudio"
                     target="_blank"
-                    >WebStudio</a
+                    ><span class="project__brackets">[</span> Project link
+                    <span class="project__brackets">]</span></a
                   >
-                </h4>
+                </div>
                 <p class="projects__text text">
                   The site of the company for the development of sites and applications, where you
                   can familiarize yourself with the areas of activity, the team of collaborators,
                   the portfolio of completed works, as well as fill out a form for further
                   cooperation. The project is individual.
-                  <a
-                    class="projects__link--text"
-                    href="https://github.com/NatashaFedorova/WebStudio"
-                    target="_blank"
-                    >Repository.</a
-                  >
-                  <a
-                    class="projects__link--text"
-                    href="https://natashafedorova.github.io/WebStudio/"
-                    target="_blank"
-                    >Website.</a
-                  >
                 </p>
                 <p class="projects__technology">HTML/CSS/SCSS/JS</p>
               </li>
@@ -262,7 +279,7 @@
                 <h4 class="education__university">GoIT - international IT-school</h4>
                 <p class="education__faculty">FullStack developer</p>
                 <p class="education__period">
-                  February 2022 - today <span class="education__divider">|</span> Ukraine
+                  February 2022 - December 2022 <span class="education__divider">|</span> Ukraine
                 </p>
               </li>
               <li>
